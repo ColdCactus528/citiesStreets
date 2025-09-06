@@ -1,0 +1,57 @@
+.soft-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(30,35,90,.06);
+  border: 1px solid rgba(60,80,120,.08);
+  overflow: hidden;
+}
+.soft-card .x-panel-header {
+  background: linear-gradient(180deg, #ffffff, #fbfbff);
+  border-bottom: 1px solid rgba(60,80,120,.08);
+  padding: 10px 14px;
+}
+.soft-card .x-title-text {
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+
+.soft-card .x-toolbar-default {
+  background: transparent;
+  border: 0;
+  padding: 8px 0 4px;
+}
+.soft-card .x-form-trigger-wrap,
+.soft-card .x-form-text,
+.soft-card .x-form-field {
+  border-radius: 10px !important;
+}
+.soft-card .x-form-clear-trigger { opacity: .7; }
+.soft-card .x-form-clear-trigger:hover { opacity: 1; }
+
+.soft-card .x-grid-header-ct,
+.soft-card .x-column-header {
+  background: #fbfcff !important;
+  border-color: rgba(60,80,120,.10) !important;
+}
+.soft-card .x-grid-item {
+  border-color: rgba(60,80,120,.06);
+}
+.soft-card .x-grid-cell-inner {
+  line-height: 24px;
+  padding: 6px 8px;
+}
+.soft-card .x-grid-item-selected .x-grid-cell,
+.soft-card .x-grid-row-focused .x-grid-cell {
+  background: rgba(86,115,235,.06) !important; 
+}
+
+.soft-card .x-pagingtoolbar {
+  background: transparent;
+  border-top: 1px solid rgba(60,80,120,.08);
+  padding: 6px 0 0;
+}
+
+.x-boundlist,
+.x-picker-floating {
+  z-index: 20000 !important;
+}
